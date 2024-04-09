@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="spring-framework500">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/spring-framework500/spring-jdbc-5.2.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-framework500/spring-web-5.2.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-framework500/cglib-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-framework500/spring-jcl-5.2.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-framework500/spring-test-5.2.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-framework500/spring-core-5.2.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-framework500/spring-oxm-5.2.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-framework500/spring-context-5.2.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-framework500/spring-tx-5.2.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-framework500/spring-jms-5.2.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-framework500/spring-orm-5.2.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-framework500/spring-beans-5.2.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-framework500/spring-messaging-5.2.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-framework500/spring-context-indexer-5.2.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-framework500/spring-expression-5.2.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-framework500/spring-websocket-5.2.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-framework500/spring-instrument-5.2.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-framework500/spring-context-support-5.2.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-framework500/org-apache-commons-logging.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-framework500/spring-webmvc-5.2.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-framework500/spring-aop-5.2.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-framework500/spring-aspects-5.2.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-framework500/spring-webflux-5.2.9.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

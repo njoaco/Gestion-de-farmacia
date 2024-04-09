@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="graaljs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/graaljs/regex-20.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/graaljs/truffle-api-20.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/graaljs/icu4j-67.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/graaljs/js-20.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/graaljs/launcher-common-20.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/graaljs/graal-sdk-20.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/graaljs/js-launcher-20.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="jsp-compilation">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jsp-compilation/ant.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsp-compilation/javax.faces.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsp-compilation/ant-launcher.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsp-compilation/jstl-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsp-compilation/glassfish-jspparser-4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsp-compilation/servlet3.1-jsp2.3-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

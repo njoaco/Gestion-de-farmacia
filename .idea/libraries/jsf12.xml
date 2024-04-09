@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jsf12">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jsf12/jsf-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsf12/javaee-doc-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsf12/jsf-impl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

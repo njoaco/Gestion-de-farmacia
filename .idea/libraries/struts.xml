@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="struts">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/struts/antlr-2.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/commons-chain-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/commons-beanutils-1.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/standard-1.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/commons-fileupload-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/struts-extras-1.3.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/struts-core-1.3.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/struts-mailreader-dao-1.3.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/commons-validator-1.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/jstl-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/commons-digester-1.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/commons-io-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/struts-faces-1.3.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/struts-scripting-1.3.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/struts-taglib-1.3.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/bsf-2.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/oro-2.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/struts-1.3.10-javadoc.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/struts-el-1.3.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/commons-logging-1.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/struts-tiles-1.3.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

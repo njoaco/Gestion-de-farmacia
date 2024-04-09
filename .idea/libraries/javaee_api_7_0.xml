@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="javaee-api-7.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/javaee-api-7.0/javaee-api-7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javaee-api-7.0/javaee-doc-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

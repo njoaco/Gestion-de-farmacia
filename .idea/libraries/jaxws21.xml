@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="jaxws21">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jaxws21/jaxb-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxws21/woodstox-core-asl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxws21/management-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxws21/jaxws-rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxws21/jaxb-xjc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxws21/jsr181-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxws21/stax-ex.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxws21/activation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxws21/javax.mail_1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxws21/mimepull.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxws21/javax.annotation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxws21/saaj-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxws21/streambuffer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxws21/gmbal-api-only.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxws21/FastInfoset.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxws21/jaxws-api-doc.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxws21/stax2-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxws21/policy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxws21/saaj-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxws21/jaxb-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxws21/jaxws-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxws21/ha-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxws21/jaxws-tools.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

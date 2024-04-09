@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="metro">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/metro/activation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/metro/webservices-extra-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/metro/webservices-rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/metro/webservices-api-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/metro/webservices-extra.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/metro/webservices-extra-api-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/metro/webservices-extra-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/metro/webservices-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/metro/webservices-rt-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/metro/webservices-tools-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/metro/webservices-tools.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
