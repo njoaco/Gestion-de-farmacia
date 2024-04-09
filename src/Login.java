@@ -116,7 +116,7 @@ public class Login extends javax.swing.JFrame {
                 temp = 1;
                 if(rs.getString("userRole").equals("Admin")){
                     setVisible(false);
-                    new AdminDashboard().setVisible(true);
+                    new AdminDashboard(username).setVisible(true);
                 }else{
                     setVisible(false);
                     new FarmaciaDashboard().setVisible(true);
