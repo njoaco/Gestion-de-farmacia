@@ -57,7 +57,7 @@ public class ViewUser extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Coco Gothic", 1, 24)); // NOI18N
         jLabel1.setText("Ver Usuario");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 40, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 40, -1, -1));
         getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, 1280, -1));
 
         jButton1.setText("X");
@@ -87,12 +87,12 @@ public class ViewUser extends javax.swing.JFrame {
             jTable1.getColumnModel().getColumn(8).setResizable(false);
         }
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 100, 1190, 490));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 100, 950, 490));
 
         jLabel2.setFont(new java.awt.Font("Coco Gothic", 1, 12)); // NOI18N
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Clickea en cualquier usuario para eliminarlo");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 640, 260, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 640, 260, -1));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagesAssets/white_background.png"))); // NOI18N
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));

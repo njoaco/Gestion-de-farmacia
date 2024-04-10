@@ -101,6 +101,11 @@ public class AdminDashboard extends javax.swing.JFrame {
         jButton5.setFont(new java.awt.Font("Coco Gothic", 1, 18)); // NOI18N
         jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagesAssets/refresh.png"))); // NOI18N
         jButton5.setText(" Actualizar Usuario");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 470, 280, 90));
 
         jButton6.setFont(new java.awt.Font("Coco Gothic", 1, 24)); // NOI18N
@@ -156,6 +161,11 @@ public class AdminDashboard extends javax.swing.JFrame {
         // TODO add your handling code here:
         new ViewUser(username).setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        // TODO add your handling code here:
+        new UpdateUser().setVisible(true);
+    }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
      * @param args the command line arguments
