@@ -106,6 +106,11 @@ public class FarmaciaDashboard extends javax.swing.JFrame {
         jButton9.setFont(new java.awt.Font("Coco Gothic", 1, 20)); // NOI18N
         jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagesAssets/update.png"))); // NOI18N
         jButton9.setText(" Actualizar Medicina");
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 550, 280, 90));
 
         jButton8.setFont(new java.awt.Font("Coco Gothic", 1, 24)); // NOI18N
@@ -166,6 +171,11 @@ public class FarmaciaDashboard extends javax.swing.JFrame {
         // TODO add your handling code here:
         new ViewMedicine().setVisible(true);
     }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        // TODO add your handling code here:
+        new UpdateMedicine().setVisible(true);
+    }//GEN-LAST:event_jButton9ActionPerformed
 
     /**
      * @param args the command line arguments
