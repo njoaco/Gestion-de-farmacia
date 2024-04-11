@@ -13,7 +13,7 @@ public class ConnectionProvider{
     public static Connection getCon(){
         try{
             //Class.forName("com.mysql.cj.jdbc.Driver");  // Ya no es necesario cargar manualmente el controlador
-            Connection con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/farmacia?useSSL=false&serverTimezone=UTC", "root", "");
+            Connection con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/farmacia?useSSL=false&serverTimezone=UTC", "root", "2634"); //"Server", "username (default = root)", "password"
             return con;
         }
         catch(Exception e){

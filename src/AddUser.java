@@ -62,33 +62,39 @@ public class AddUser extends javax.swing.JFrame {
         setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Coco Gothic", 1, 24)); // NOI18N
         jLabel1.setText("Agregar Usuario");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 30, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 40, -1, -1));
         getContentPane().add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 1030, 10));
 
+        jLabel2.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
         jLabel2.setText("Rol del usuario");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 180, 100, 20));
 
         comboUserRole.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Admin", "Farmacéutico" }));
-        getContentPane().add(comboUserRole, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 200, 330, 30));
+        getContentPane().add(comboUserRole, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 200, 330, -1));
 
+        jLabel3.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
         jLabel3.setText("Nombre");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 240, -1, 20));
         getContentPane().add(txtName, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 260, 330, -1));
 
+        jLabel4.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
         jLabel4.setText("Fecha de nacimiento");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 300, -1, 20));
-        getContentPane().add(dateFDN, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 320, 330, -1));
+        getContentPane().add(dateFDN, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 320, 330, 30));
 
+        jLabel5.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
         jLabel5.setText("Numero de telefono");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 360, -1, 20));
         getContentPane().add(txtMobile, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 380, 330, -1));
 
+        jLabel6.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
         jLabel6.setText("Email");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 180, -1, -1));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 180, -1, 20));
         getContentPane().add(txtEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 200, 330, -1));
 
+        jLabel7.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
         jLabel7.setText("Nombre de usuario");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 240, -1, -1));
 
@@ -104,24 +110,28 @@ public class AddUser extends javax.swing.JFrame {
         });
         getContentPane().add(txtUsername, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 260, 330, -1));
 
-        iconLabel.setText("jLabel8");
+        iconLabel.setText("iconYesNo_PLACEH");
         getContentPane().add(iconLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 260, -1, -1));
 
+        jLabel9.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
         jLabel9.setText("Contraseña");
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 300, -1, -1));
         getContentPane().add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 320, 330, 30));
         getContentPane().add(txtAdress, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 380, 330, -1));
 
+        jLabel10.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
         jLabel10.setText("Dirección");
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 360, -1, -1));
 
-        jButton1.setText("Guardar");
+        jButton1.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagesAssets/save32.png"))); // NOI18N
+        jButton1.setText(" Guardar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 430, 100, 40));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 440, 170, 40));
 
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagesAssets/close32.png"))); // NOI18N
         jButton2.addActionListener(new java.awt.event.ActionListener() {
