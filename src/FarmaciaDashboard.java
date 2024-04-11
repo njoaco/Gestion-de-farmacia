@@ -70,6 +70,11 @@ public class FarmaciaDashboard extends javax.swing.JFrame {
         jButton5.setFont(new java.awt.Font("Coco Gothic", 1, 20)); // NOI18N
         jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagesAssets/add.png"))); // NOI18N
         jButton5.setText(" Agregar Medicina ");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 350, 280, 90));
 
         jButton6.setFont(new java.awt.Font("Coco Gothic", 1, 24)); // NOI18N
@@ -146,6 +151,11 @@ public class FarmaciaDashboard extends javax.swing.JFrame {
         // TODO add your handling code here:
         new Profile(username).setVisible(true);
     }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        // TODO add your handling code here:
+        new AddMedicine().setVisible(true);
+    }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
      * @param args the command line arguments
