@@ -94,8 +94,13 @@ public class FarmaciaDashboard extends javax.swing.JFrame {
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1860, 1050, -1, -1));
 
         jButton7.setFont(new java.awt.Font("Coco Gothic", 1, 24)); // NOI18N
-        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagesAssets/sell.png"))); // NOI18N
+        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagesAssets/view.png"))); // NOI18N
         jButton7.setText(" Ver Medicina");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 450, 280, 90));
 
         jButton9.setFont(new java.awt.Font("Coco Gothic", 1, 20)); // NOI18N
@@ -156,6 +161,11 @@ public class FarmaciaDashboard extends javax.swing.JFrame {
         // TODO add your handling code here:
         new AddMedicine().setVisible(true);
     }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        // TODO add your handling code here:
+        new ViewMedicine().setVisible(true);
+    }//GEN-LAST:event_jButton7ActionPerformed
 
     /**
      * @param args the command line arguments
