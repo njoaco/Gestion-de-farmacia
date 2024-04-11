@@ -60,6 +60,11 @@ public class FarmaciaDashboard extends javax.swing.JFrame {
         jButton3.setFont(new java.awt.Font("Coco Gothic", 1, 24)); // NOI18N
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagesAssets/sell.png"))); // NOI18N
         jButton3.setText(" Vender Medicina");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 350, 280, 90));
 
         jButton4.setFont(new java.awt.Font("Coco Gothic", 1, 24)); // NOI18N
@@ -176,6 +181,11 @@ public class FarmaciaDashboard extends javax.swing.JFrame {
         // TODO add your handling code here:
         new UpdateMedicine().setVisible(true);
     }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+        new SellMedicine(username).setVisible(true);
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
