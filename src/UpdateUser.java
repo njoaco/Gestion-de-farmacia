@@ -45,7 +45,6 @@ public class UpdateUser extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         dateFDN = new com.toedter.calendar.JDateChooser();
         txtEmail = new javax.swing.JTextField();
-        jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         txtMobileNumber = new javax.swing.JTextField();
         jLabel8 = new javax.swing.JLabel();
@@ -66,29 +65,34 @@ public class UpdateUser extends javax.swing.JFrame {
         });
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 10, 40, 40));
 
-        jLabel1.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Coco Gothic", 1, 24)); // NOI18N
         jLabel1.setText("Actualizar Usuario");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 20, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 40, -1, -1));
         getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 82, 1030, 10));
 
+        jLabel2.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
         jLabel2.setText("Nombre de usuario");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 170, -1, 20));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 160, -1, 20));
 
+        jButton1.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagesAssets/update.png"))); // NOI18N
         jButton1.setText("Actualizar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 480, 110, 40));
-        getContentPane().add(txtUsername, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 170, 350, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 480, 200, 50));
+        getContentPane().add(txtUsername, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 160, 350, -1));
 
+        jLabel3.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
         jLabel3.setText("Rol del usuario");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 260, -1, -1));
 
         comboUserRole.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Admin", "Farmaceutico" }));
         getContentPane().add(comboUserRole, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 280, 280, -1));
 
+        jLabel4.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
         jLabel4.setText("Fecha de nacimiento");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 380, -1, -1));
 
@@ -99,6 +103,7 @@ public class UpdateUser extends javax.swing.JFrame {
         });
         getContentPane().add(txtName, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 340, 280, -1));
 
+        jLabel5.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
         jLabel5.setText("Usuario");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 320, -1, -1));
         getContentPane().add(dateFDN, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 400, 280, -1));
@@ -110,9 +115,6 @@ public class UpdateUser extends javax.swing.JFrame {
         });
         getContentPane().add(txtEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 280, 280, -1));
 
-        jLabel6.setText("Email");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 260, -1, -1));
-
         jLabel7.setText("Email");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 260, -1, -1));
 
@@ -123,6 +125,7 @@ public class UpdateUser extends javax.swing.JFrame {
         });
         getContentPane().add(txtMobileNumber, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 340, 280, -1));
 
+        jLabel8.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
         jLabel8.setText("Numero de telefono");
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 320, -1, -1));
 
@@ -133,16 +136,19 @@ public class UpdateUser extends javax.swing.JFrame {
         });
         getContentPane().add(txtAddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 400, 280, -1));
 
+        jLabel9.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
         jLabel9.setText("Direccion");
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 380, -1, -1));
 
-        jButton2.setText("Buscar");
+        jButton2.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagesAssets/search32.png"))); // NOI18N
+        jButton2.setText(" Buscar");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 170, -1, -1));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 200, 160, 40));
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagesAssets/white_background.png"))); // NOI18N
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1030, -1));
@@ -318,7 +324,6 @@ public class UpdateUser extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;

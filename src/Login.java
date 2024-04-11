@@ -10,10 +10,6 @@ import java.sql.*;
  * and open the template in the editor.
  */
 
-/**
- *
- * @author J0AX_
- */
 public class Login extends javax.swing.JFrame {
 
     /**
