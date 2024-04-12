@@ -12,16 +12,9 @@
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/coding/!Proyecto_Apps/AdminFarmacia/src/FarmaciaDashboard.java</file>
-            <file>file:/D:/coding/!Proyecto_Apps/AdminFarmacia/src/AddMedicine.java</file>
-            <file>file:/D:/coding/!Proyecto_Apps/AdminFarmacia/src/DAO/FarmaciaUtils.java</file>
-            <file>file:/D:/coding/!Proyecto_Apps/AdminFarmacia/src/common/OpenPDF.java</file>
+            <file>file:/D:/coding/!Proyecto_Apps/AdminFarmacia/src/Login.java</file>
             <file>file:/D:/coding/!Proyecto_Apps/AdminFarmacia/src/UpdateMedicine.java</file>
             <file>file:/D:/coding/!Proyecto_Apps/AdminFarmacia/src/ViewMedicine.java</file>
-            <file>file:/D:/coding/!Proyecto_Apps/AdminFarmacia/src/SellMedicine.java</file>
-            <file>file:/D:/coding/!Proyecto_Apps/AdminFarmacia/src/UpdateUser.java</file>
-            <file>file:/D:/coding/!Proyecto_Apps/AdminFarmacia/src/DAO/Tables.java</file>
-            <file>file:/D:/coding/!Proyecto_Apps/AdminFarmacia/src/ViewBill.java</file>
         </group>
     </open-files>
 </project-private>
