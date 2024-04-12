@@ -45,9 +45,9 @@ public class ViewMedicine extends javax.swing.JFrame {
         });
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Coco Gothic", 1, 24)); // NOI18N
         jLabel1.setText("Ver Medicina");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 40, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 40, -1, -1));
         getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, 1030, -1));
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
@@ -67,8 +67,9 @@ public class ViewMedicine extends javax.swing.JFrame {
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, 990, -1));
 
+        jLabel2.setFont(new java.awt.Font("Coco Gothic", 1, 14)); // NOI18N
         jLabel2.setText("Click en la columna para eliminarla");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 600, -1, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 590, -1, -1));
 
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagesAssets/close32.png"))); // NOI18N
         jButton3.addActionListener(new java.awt.event.ActionListener() {

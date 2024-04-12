@@ -54,7 +54,7 @@ public class UpdateMedicine extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Coco Gothic", 1, 24)); // NOI18N
         jLabel1.setText("Actualizar Medicina");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 40, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(409, 40, 240, -1));
         getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 82, 1030, 10));
 
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagesAssets/close32.png"))); // NOI18N
@@ -65,45 +65,55 @@ public class UpdateMedicine extends javax.swing.JFrame {
         });
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 10, 40, 40));
 
+        jLabel2.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
         jLabel2.setText("Nombre");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 240, -1, -1));
         getContentPane().add(txtName, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 260, 240, -1));
 
+        jButton1.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagesAssets/update.png"))); // NOI18N
         jButton1.setText("Actualizar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 290, 90, 40));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 290, 170, 40));
 
+        jLabel3.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
         jLabel3.setText("ID de Medicina");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 130, -1, -1));
         getContentPane().add(txtId, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 130, 350, -1));
 
+        jLabel4.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
         jLabel4.setText("Nombre de compania");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 300, -1, -1));
         getContentPane().add(txtCompany, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 320, 240, -1));
         getContentPane().add(txtQuantity, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 380, 240, -1));
 
+        jLabel5.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
         jLabel5.setText("Cantidad");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 360, -1, -1));
 
+        jLabel6.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
         jLabel6.setText("Agregar cantidad");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 420, -1, -1));
-        getContentPane().add(txtAddQuantity, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 420, 70, -1));
+        getContentPane().add(txtAddQuantity, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 420, 90, -1));
         getContentPane().add(txtPrice, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 260, 240, -1));
 
+        jLabel7.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
         jLabel7.setText("Precio por unidad");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 240, -1, -1));
 
+        jButton2.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagesAssets/search32.png"))); // NOI18N
         jButton2.setText("Buscar");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 170, 90, 40));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 170, 130, 40));
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagesAssets/white_background.png"))); // NOI18N
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1030, -1));
