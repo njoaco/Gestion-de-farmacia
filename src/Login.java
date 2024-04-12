@@ -115,7 +115,7 @@ public class Login extends javax.swing.JFrame {
                     new AdminDashboard(username).setVisible(true);
                 }else{
                     setVisible(false);
-                    new FarmaciaDashboard().setVisible(true);
+                    new FarmaciaDashboard(username).setVisible(true);
                 }
             }
             

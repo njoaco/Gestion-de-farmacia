@@ -96,9 +96,9 @@ public class Profile extends javax.swing.JFrame {
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 370, -1, -1));
         getContentPane().add(txtAddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 390, 330, -1));
 
-        jLabel6.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Coco Gothic", 1, 24)); // NOI18N
         jLabel6.setText("Perfil");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 20, -1, -1));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 30, -1, -1));
 
         jLabel7.setFont(new java.awt.Font("Coco Gothic", 0, 12)); // NOI18N
         jLabel7.setText("Nombre");
