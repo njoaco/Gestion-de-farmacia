@@ -31,10 +31,3 @@ Para la gestión eficiente de la base de datos, se utilizó SQL, el estándar pa
 ![ViewUser](https://github.com/njoaco/Gestion-de-farmacia/assets/162630044/e8ffeb35-5336-4eaf-8008-6dab41aabdff)
 ![FarmaciaPanel](https://github.com/njoaco/Gestion-de-farmacia/assets/162630044/9e939e0b-6261-46de-957d-4cd1371c6130)
 ![SellPanel](https://github.com/njoaco/Gestion-de-farmacia/assets/162630044/7485e6b1-dbc0-4a9f-a07b-716ba95feccb)
-
-
-![alt text](https://r2.easyimg.io/aqsipdzsi/4.png)
-
-![alt text](https://r2.easyimg.io/aqsipdzsi/3.png)
-
-![alt text](https://r2.easyimg.io/aqsipdzsi/2.png)
